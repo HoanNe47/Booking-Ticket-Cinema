@@ -10,64 +10,7 @@
 
 - 🔍 **Tìm kiếm phim**: Dựa trên tên phim, thể loại, rạp chiếu, hoặc thời gian.
 - 📅 **Lịch chiếu phim**: Xem thông tin chi tiết về lịch chiếu tại các rạp gần nhất.
-- 🛒 **Đặt vé**: Chọn chỗ ngồi, đặt vé, và thanh toán trực tuyến an toàn.
-- 💳 **Thanh toán**: Hỗ trợ nhiều phương thức thanh toán, bao gồm thẻ tín dụng, ví điện tử.
-- 📊 **Quản lý vé**: Lưu trữ thông tin vé đã đặt, quản lý lịch trình xem phim.
-- ⭐ **Đánh giá & Bình luận**: Để lại đánh giá và đọc nhận xét từ những người dùng khác.
-
----
-
-## Công nghệ sử dụng
-
-- **Frontend**:
-  - Flutter (hoặc React Native) để phát triển ứng dụng đa nền tảng.
-  - Firebase Authentication cho chức năng đăng nhập.
-- **Backend**:
-  - Node.js + Express để xử lý API.
-  - Firebase Firestore để lưu trữ dữ liệu.
-- **Database**:
-  - Firestore (NoSQL) để quản lý dữ liệu liên quan đến phim, rạp chiếu, vé.
-- **Deployment**:
-  - Firebase Hosting cho website.
-  - Play Store và App Store cho ứng dụng di động.
-
----
-
-## Cài đặt và triển khai
-
-### Yêu cầu hệ thống
-
-- Node.js >= 16.0.0
-- Flutter SDK 2.40.0000
-- Firebase CLI
-
-### Hướng dẫn cài đặt
-
-1. Clone repository:
-   ```bash
-   git clone https://github.com/your-username/booking-ticket-movie.git
-   cd booking-ticket-movie
-   ```
-
-2. Cài đặt các package cần thiết:
-   - **Backend**:
-     ```bash
-     cd backend
-     npm install
-     ```
-   - **Frontend**:
-     ```bash
-     cd frontend
-     flutter pub get
-     ```
-
-3. Cấu hình Firebase:
-   - Tải tệp `google-services.json` (Android) và `GoogleService-Info.plist` (iOS) từ Firebase Console.
-   - Đặt tệp vào đúng vị trí trong dự án.
-
-4. Chạy ứng dụng:
-   - **cd vào dự án**:
-     ```cd
+- 🛒 **Đặt vé**: Chọn chỗ ngồi, đặt vé, và thanh toán trực tuán
      flutter clean 
      flutter pub get
      ```
@@ -92,8 +35,6 @@ booking-ticket-movie/
 ---
 
 ## Đóng góp
-
-Chúng tôi hoan nghênh mọi đóng góp từ cộng đồng! Để tham gia:
 
 1. Fork repository này.
 2. Tạo nhánh mới:
